@@ -97,7 +97,7 @@ class WebConsoleAPI {
 				//RAM Usage info
 				break;
 			default:
-				console.log('Unknown server response:');
+				console.log('Respuesta del Servidor Desconocida:');
 		}
 	}
 }

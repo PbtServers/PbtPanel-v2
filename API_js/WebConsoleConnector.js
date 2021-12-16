@@ -38,7 +38,7 @@ class WebConsoleConnector {
 	* Internal function
 	*/
 	onClose(evt){
-		console.log("Closed reason: " + evt.reason); //No reason provided (using chrome at least)
+		console.log("Razón del Cierre: " + evt.reason); //No reason provided (using chrome at least)
 	}
 	
 	/**

@@ -1,11 +1,11 @@
-name: WebConsole
-main: es.mesacarlos.webconsole.WebConsole
+name: PbtPanelv2
+main: com.pbtservers.pbtpanel.PbtPanelv2
 api-version: 1.13
-version: 2.3
-description: WebSocket-based web console
-author: Carlos Mesa
+version: 2.4
+description: Consola Basada en WebSocket
+author: Pbt y Carlos Mesa
 commands:
-  WebConsole:
-    description: Shows version and active connections of WebConsole
-    permission: webconsole.webconsole
-    usage: /WebConsole
+  PbtPanel:
+    description: Muestra la Versión y las Conexiones Activas
+    permission: pbtpanel.pbtpanel
+    usage: /PbtPanel

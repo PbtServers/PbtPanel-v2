@@ -104,7 +104,7 @@ class WebConsolePersistenceManager{
 			//Create empty object
 			var storageObj = new Object();
 			storageObj.servers = new Array();
-			storageObj.language = "en_US";
+			storageObj.language = "es_ES";
 			
 			//Save to WebStorage
 			window.localStorage.WebConsole = JSON.stringify(storageObj);

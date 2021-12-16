@@ -36,7 +36,7 @@ function readServerList() {
 			}
 		})
 		.then(updateServerList)
-		.catch(() => console.info('Ignore load new list in file servers.json.'));
+		.catch(() => console.info('Cargando Lista de Servidores de servers.json.'));
 }
 
 /**
@@ -128,7 +128,7 @@ function onWebSocketsMessage(message){
 			writeRamInfo(message.free, message.used, message.max);
 			break;
 		default:
-			console.log('Unknown server response:');
+			console.log('Respuesta del Servidor Desconocida:');
 	}
 	console.log(message);
 	
@@ -295,6 +295,6 @@ function updateServerList(){
 	
 	//Show a "no servers" message when no servers are added
 	if(servers.length == 0){
-		$('#ServerListDropDown').append('<a class="dropdown-item servermenuitem disabled" href="#" id="noServersAdded">No servers added</a>');
+		$('#ServerListDropDown').append('<a class="dropdown-item servermenuitem disabled" href="#" id="noServersAdded">No has Añadido Servidores</a>');
 	}
 }
