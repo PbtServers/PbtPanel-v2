@@ -295,6 +295,6 @@ function updateServerList(){
 	
 	//Show a "no servers" message when no servers are added
 	if(servers.length == 0){
-		$('#ServerListDropDown').append('<a class="dropdown-item servermenuitem disabled" href="#" id="noServersAdded">No has Añadido Servidores</a>');
+		$('#ServerListDropDown').append('<a class="dropdown-item servermenuitem disabled" href="#" id="noServersAdded">No Tienes Servidores</a>');
 	}
 }
