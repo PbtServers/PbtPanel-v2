@@ -42,9 +42,9 @@ function setLanguage(locale){
 				"showDateSettingsSwitchLabel": "Mostrar Hora en cada Linea de PbtPanelv2",
 				"readLogFileSwitchLabel": "Leer log completo al iniciar sesión",
 				"settingsModalCloseButton": "Hecho",
-				"players_online": "Jugadores/as en Línea",
+				"players_online": "En Línea",
 				"cpu_title": "CPU",
-				"ram_title": "RAM en uso",
+				"ram_title": "RAM",
 				"user_title": "Iniciado Sesión como",
 				"deleteServerButton": "Borrar Servidor",
 				"sendCommandButton": "Enviar"
