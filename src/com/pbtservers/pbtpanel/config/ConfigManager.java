@@ -29,15 +29,15 @@ public class ConfigManager {
 	 */
 	private void loadConfig() {
 		// SSL variables
-		config.addDefault("useSSL", false);
+		config.addDefault("useSSL", true);
 		config.addDefault("StoreType", "JKS");
-		config.addDefault("KeyStore", "plugins/WebConsole/keystore.jks");
-		config.addDefault("StorePassword", "storepassword");
-		config.addDefault("KeyPassword", "keypassword");
+		config.addDefault("KeyStore", "RutaPbtHosting.jks");
+		config.addDefault("StorePassword", "IntroducirPassKeystore");
+		config.addDefault("KeyPassword", "IntroducirPassKeystore");
 		
 		// Connection config variables
 		config.addDefault("host", "0.0.0.0");
-		config.addDefault("port", 8080);
+		config.addDefault("port", 27516);
 		
 		// Language config
 		config.addDefault("language", "es");
@@ -52,7 +52,7 @@ public class ConfigManager {
 		ConfigurationSection adminPasswordSection = passwordsSection.getConfigurationSection("admin");
 		if(adminPasswordSection == null) {
 			adminPasswordSection = passwordsSection.createSection("admin");
-			adminPasswordSection.createSection("user1");
+			adminPasswordSection.createSection("Pbt");
 		}
 		
 		//For each admin user, create the password value and the commandWhitelist section if it does not exist
@@ -65,7 +65,7 @@ public class ConfigManager {
 				userSection = adminPasswordSection.createSection(adminUserSectionName);
 				userSection.set("password", userPasswordFromOldConfig);
 			}
-			userSection.addDefault("password", "mySecurePassword");
+			userSection.addDefault("password", "PbtPassword");
 			
 			ConfigurationSection commandWhitelist = userSection.getConfigurationSection("commandWhitelist");
 			if(commandWhitelist == null) {
