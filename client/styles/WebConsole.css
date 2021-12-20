@@ -6,8 +6,70 @@
 	height: 480px;
 }
 
+.flex-shrink-0{
+	background-color: black;
+	color: white;
+}
+
+.container{
+	background-color: black;
+	color: white;
+}
+
+.footer{
+	background-color: black;
+	color: white;
+}
+
+.fade{
+	background-color: black;
+	color: white;
+}
+
+.navbar{
+	background-color: black;
+	color: white;
+}
+
+.dropdown-menu{
+	background-color: black;
+	color: white;
+}
+
+.dropdown-item{
+	background-color: black;
+	color: white;
+}
+
+.modal-content{
+	background-color: black;
+	color: white;
+}
+
+.form-control{
+	background-color: gray;
+	color: white;
+}
+
+.d-flex{
+	background-color: black;
+	color: white;
+}
+
 .form-control::-webkit-input-placeholder { opacity: 0.4; }  /* WebKit, Blink, Edge */
 .form-control:-moz-placeholder { opacity: 0.4; }  /* Mozilla Firefox 4 to 18 */
 .form-control::-moz-placeholder { opacity: 0.4; }  /* Mozilla Firefox 19+ */
 .form-control:-ms-input-placeholder { opacity: 0.4; }  /* Internet Explorer 10-11 */
 .form-control::-ms-input-placeholder { opacity: 0.4; }  /* Microsoft Edge */
+
+.form-control::-webkit-input-placeholder { color: white; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: white; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: white; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: white; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: white; }  /* Microsoft Edge */
+
+.form-control::-webkit-input-placeholder { font-weight: bold; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { font-weight: bold; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { font-weight: bold; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { font-weight: bold; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { font-weight: bold; }  /* Microsoft Edge */
