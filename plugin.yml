@@ -3,7 +3,7 @@ main: com.pbtservers.pbtpanel.PbtPanelv2
 api-version: 1.13
 version: 2.4
 description: Consola Basada en WebSocket
-author: Pbt y Carlos Mesa
+author: [Pbt, Carlos Mesa]
 commands:
   PbtPanel:
     description: Muestra la Versión y las Conexiones Activas
